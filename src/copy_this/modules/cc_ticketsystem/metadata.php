@@ -38,7 +38,7 @@ $aModule = array(
   ),
   'lang' => 'de',
   'thumbnail'    => 'CommerceCoding.png',
-  'version'      => '0.1.2',
+  'version'      => '1.0',
   'author'       => 'Commerce Coding',
   'url'          => 'http://www.commerce-coding.de',
   'email'        => 'info@commerce-coding.de',
@@ -53,25 +53,25 @@ $aModule = array(
     'cc_ticketsystem_tickets' => 'cc_ticketsystem/controllers/cc_ticketsystem_tickets.php'
   ),
   'blocks' => array(
-    array('template' => 'page/account/dashboard.tpl',        'block' => 'account_dashboard_col2',         'file' => 'out/blocks/page/account/dashboard'),
-    array('template' => 'page/account/inc/account_menu.tpl', 'block' => 'account_menu',                   'file' => 'out/blocks/page/account/inc/account_menu'),
-    array('template' => 'widget/header/servicebox.tpl',      'block' => 'widget_header_servicebox_items', 'file' => 'out/blocks/widget/header/servicebox')
+    array('template' => 'page/account/dashboard.tpl',        'block' => 'account_dashboard_col2',         'file' => 'views/blocks/page/account/dashboard'),
+    array('template' => 'page/account/inc/account_menu.tpl', 'block' => 'account_menu',                   'file' => 'views/blocks/page/account/inc/account_menu'),
+    array('template' => 'widget/header/servicebox.tpl',      'block' => 'widget_header_servicebox_items', 'file' => 'views/blocks/widget/header/servicebox')
   ),
   'settings' => array(
     array('group' => 'main', 'name' => 'ccSendmail',    'type' => 'bool', 'value' => 'true'),
     array('group' => 'main', 'name' => 'ccSupportname', 'type' => 'str',  'value' => 'Support')
   ),
   'templates' => array(
-    'cc_ticketsystem_overview.tpl'     => 'cc_ticketsystem/out/admin/tpl/cc_ticketsystem_overview.tpl',
-    'cc_ticketsystem_table.tpl'        => 'cc_ticketsystem/out/admin/tpl/cc_ticketsystem_table.tpl',
-    'cc_ticketsystem_ticket.tpl'       => 'cc_ticketsystem/out/admin/tpl/cc_ticketsystem_ticket.tpl',
-    'cc_account_overview.tpl'          => 'cc_ticketsystem/out/tpl/page/cc_account_overview.tpl',
-    'cc_account_ticket.tpl'            => 'cc_ticketsystem/out/tpl/page/cc_account_ticket.tpl',
-    'cc_account_ticket_new.tpl'        => 'cc_ticketsystem/out/tpl/page/cc_account_ticket_new.tpl',
-    'cc_form_new.tpl'                  => 'cc_ticketsystem/out/tpl/form/cc_form_new.tpl',
-    'cc_form_update.tpl'               => 'cc_ticketsystem/out/tpl/form/cc_form_update.tpl',
-    'cc_email_ticket_new_admin.tpl'    => 'cc_ticketsystem/out/tpl/email/cc_email_ticket_new_admin.tpl',
-    'cc_email_ticket_update_admin.tpl' => 'cc_ticketsystem/out/tpl/email/cc_email_ticket_update_admin.tpl',
-    'cc_email_ticket_update_user.tpl'  => 'cc_ticketsystem/out/tpl/email/cc_email_ticket_update_user.tpl'
+    'cc_ticketsystem_overview.tpl'     => 'cc_ticketsystem/views/admin/tpl/cc_ticketsystem_overview.tpl',
+    'cc_ticketsystem_table.tpl'        => 'cc_ticketsystem/views/admin/tpl/cc_ticketsystem_table.tpl',
+    'cc_ticketsystem_ticket.tpl'       => 'cc_ticketsystem/views/admin/tpl/cc_ticketsystem_ticket.tpl',
+    'cc_account_overview.tpl'          => 'cc_ticketsystem/views/tpl/page/cc_account_overview.tpl',
+    'cc_account_ticket.tpl'            => 'cc_ticketsystem/views/tpl/page/cc_account_ticket.tpl',
+    'cc_account_ticket_new.tpl'        => 'cc_ticketsystem/views/tpl/page/cc_account_ticket_new.tpl',
+    'cc_form_new.tpl'                  => 'cc_ticketsystem/views/tpl/form/cc_form_new.tpl',
+    'cc_form_update.tpl'               => 'cc_ticketsystem/views/tpl/form/cc_form_update.tpl',
+    'cc_email_ticket_new_admin.tpl'    => 'cc_ticketsystem/views/tpl/email/cc_email_ticket_new_admin.tpl',
+    'cc_email_ticket_update_admin.tpl' => 'cc_ticketsystem/views/tpl/email/cc_email_ticket_update_admin.tpl',
+    'cc_email_ticket_update_user.tpl'  => 'cc_ticketsystem/views/tpl/email/cc_email_ticket_update_user.tpl'
   )
 );

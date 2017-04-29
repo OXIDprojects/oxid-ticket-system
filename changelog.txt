@@ -1,3 +1,6 @@
+==1.0 (29.04.2017)==
+* compatibility to OXID 4.10 & to responsive Themes like Flow by eComStyle.de 
+
 ==0.1.2 (09.02.2013)==
 * removed deprecated stuff (like oxConfig::getInstance())
 * $this->_aViewData[] replaced by template getters
